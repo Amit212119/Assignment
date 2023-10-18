@@ -1,38 +1,330 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+.sidebar{
+  background-color: rgb(2, 2, 48);
   color: white;
+  height: 100vh;
+  width: 157px;
+
+}
+.link{
+  display: flex;
+  color: azure;
+  padding: 30px 15px;
+  gap: 15px;
+}
+.link:hover{
+  background-color: rgb(89, 89, 223);
+  color: white;
+  border-radius: 40px;
+}
+.active{
+  background-color: lightskyblue;
+  color: aliceblue;
+  border-radius: 40px;
+}
+.top-section{
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.deshcontainer{
+  display: flex;
+  flex-direction: row;
+  background-color: #C9C9E2;
+  margin-top: 10px;
+  
+}
+.center{
+  width: 280px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin: 10px 8px;
+  border-radius: 10px;
+  
+}
+.icon1{
+  height: 106px;
+    width: 122px;
+    background-color: lightgreen;
+    margin-top: 27px;
+    border-radius: 60px;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    color: green;
+}
+.icon2{
+  height: 106px;
+    width: 122px;
+    background-color: rgb(179, 110, 179);
+    margin-top: 27px;
+    border-radius: 60px;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    color: purple;
+}
+.icon3{
+  height: 106px;
+    width: 122px;
+    background-color: lightblue;
+    margin-top: 27px;
+    border-radius: 60px;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    color: blue;
+}
+.icon4{
+  height: 106px;
+    width: 122px;
+    background-color: lightcoral;
+    margin-top: 27px;
+    border-radius: 60px;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    color: red;
+}
+.text1{
+  padding-left: 15px;
+  padding-top: 30px;
+  
+}
+.name{
+  color: #C9C9E2;
+}
+.amount{
+  color: black;
+  font-weight: bold;
+  
+}
+.graph{
+  
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 12px;
+  background-color: #C9C9E2 ;
+  
+  
+  
+  
+}
+.line{
+  width: 828px;
+  height: 350px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.month{
+  margin-left: 26px;
+  margin-top: 10px;
+}
+.customer{
+  width: 294px;
+  height: 350px;
+  background-color:white;
+  margin-left:20px;
+  border-radius: 20px;
+}
+.line1{
+  width: 45px;
+  height: 220px;
+  background-color: rgb(226, 220, 220);
+  margin-top:100px ;
+  margin-left: 20px;
+  border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.line2{
+  width: 45px;
+  height: 120px;
+  background-color:rgb(226, 220, 220);
+  margin-top:200px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line3{
+  width: 45px;
+  height: 280px;
+  background-color:rgb(226, 220, 220);
+  margin-top:40px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line4{
+  width: 45px;
+  height: 240px;
+  background-color:rgb(226, 220, 220);
+  margin-top:80px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line5{
+  width: 45px;
+  height: 270px;
+  background-color:rgb(226, 220, 220);
+  margin-top:50px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line6{
+  width: 45px;
+  height: 80px;
+  background-color:rgb(226, 220, 220);
+  margin-top:240px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line7{
+  width: 45px;
+  height: 270px;
+  background-color:rgb(226, 220, 220);
+  margin-top:50px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line8{
+  width: 45px;
+  height: 300px;
+  background-color:blue;
+  margin-top:20px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line9{
+  width: 45px;
+  height: 280px;
+  background-color:rgb(226, 220, 220);
+  margin-top:40px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line10{
+  width: 45px;
+  height: 255px;
+  background-color:rgb(226, 220, 220);
+  margin-top:65px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line11{
+  width: 45px;
+  height: 240px;
+  background-color:rgb(226, 220, 220);
+  margin-top:80px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.line12{
+  width: 45px;
+  height: 260px;
+  background-color:rgb(226, 220, 220);
+  margin-top:60px ;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.cust{
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.para{
+  
+  margin-left: 20px;
+  color:rgb(226, 220, 220) ;
+}
+.circle{
+  width: 140px;
+    height: 140px;
+    background-color: white;
+    margin-top: 56px;
+    margin-left: 67px;
+    border-radius: 81px;
+    text-align: center;
+    border: 14px solid rgb(226, 220, 220) ;
+  };
+  .percent{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+.appdiv{
+  background-color:#C9C9E2 ;
+  width: 100%;
+}
+.cir{
+  margin: 30px;
+}
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+h1{
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+input{
+  margin-right: 30px;
+  margin-top: 10px;
+  height: 18px;
+  border-radius: 10px;
+  border-style: none;
+  border: 1px solid #E2DCDC;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+.tablediv{
+  width: 98%;
+  
+  margin: 10px 18px;
+  background-color: white;
+  border-radius: 15px;
+
+}
+.upper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.days{
+  height: 20px;
+  background-color: #E2DCDC;
+  border-style: none;
+  margin-right: 20px ;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.tablesearch{
+  margin-left: 500px;
+}
+table{
+  margin-top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
